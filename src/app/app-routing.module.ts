@@ -8,7 +8,7 @@ const routes: Routes = [
   },
   {
     path: '',
-    redirectTo: 'home',
+    redirectTo: 'frontscreen',
     pathMatch: 'full'
   },
   {
@@ -30,6 +30,14 @@ const routes: Routes = [
   {
     path: 'password-reset',
     loadChildren: () => import('./password-reset/password-reset.module').then( m => m.PasswordResetPageModule)
+  },
+  {
+    path: 'frontscreen',
+    loadChildren: () => import('./frontscreen/frontscreen.module').then( m => m.FrontscreenPageModule)
+  },
+  {
+    path: 'profile-settings',
+    loadChildren: () => import('./profile-settings/profile-settings.module').then( m => m.ProfileSettingsPageModule)
   },
 ];
 
