@@ -37,7 +37,7 @@ ion-item{
     left: 0%;
     right: 0;
     margin:0 auto;
-    top:15%;
+    top:3%;
     padding-left: 16px;
     padding-right: 0;
     position: relative;
@@ -90,4 +90,10 @@ ion-button{
     display: block;
 
      background-image: url('/assets/img/pixels.jpg');
+}
+ion-item ion-label{
+    font-size: 25px;
+}
+ion-item ion-input{
+    color: white;
 }
