@@ -8,10 +8,19 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 
   <ion-toolbar>
-    <!--Profile Button-->
-    <ion-buttons slot="start">
-      <ion-menu-button auto-hide="false" menu="main-menu"></ion-menu-button>
+
+    <ion-buttons slot="end">
+      <ion-button [routerLink]="['/uhome']">
+        <ion-icon name="home"></ion-icon>
+      </ion-button>
     </ion-buttons>
+
+    <!--Profile Button-->
+   
+      <ion-buttons [routerLink]="['/profile']" slot="end" class="psn">
+        <ion-icon name="person" ></ion-icon>
+      </ion-buttons>
+    
 <!--Profile Button-->
 
 <!--App Name-->
@@ -19,13 +28,13 @@
 <!--App Name-->
 
 
-<!--Side Menu-->
+
     <ion-buttons slot="end">
-      <ion-button [routerLink]="['/']">
-        <ion-icon name="person" ></ion-icon>
+      <ion-button [routerLink]="['/profile-settings']">
+        <ion-icon name="settings-outline"></ion-icon>
       </ion-button>
     </ion-buttons>
-<!--Side Menu-->
+
   </ion-toolbar>
 
 
@@ -40,7 +49,7 @@
 <ion-card class="homepost">
   <ion-item>
     <ion-avatar>
-      <img src="../assets/cute.jpg">
+      <img src="../assets/profile.jpeg">
     </ion-avatar>
     <ion-label>Mark Joenas</ion-label>
   </ion-item>
@@ -80,7 +89,7 @@
 <ion-card class="homepost">
   <ion-item>
     <ion-avatar>
-      <img src="../assets/cute.jpg">
+      <img src="../assets/profile.jpeg">
     </ion-avatar>
     <ion-label>Mark Joenas</ion-label>
   </ion-item>
@@ -123,7 +132,7 @@
 <ion-card class="homepost">
   <ion-item>
     <ion-avatar>
-      <img src="../assets/cute.jpg">
+      <img src="../assets/profile.jpeg">
     </ion-avatar>
     <ion-label>Mark Joenas</ion-label>
   </ion-item>
