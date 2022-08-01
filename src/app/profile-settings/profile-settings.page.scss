@@ -37,7 +37,7 @@ ion-item{
     left: 0%;
     right: 0;
     margin:0 auto;
-    top:15%;
+    top:20%;
     padding-left: 16px;
     padding-right: 0;
     position: relative;
@@ -74,23 +74,16 @@ ion-button{
     border-radius: 5px;
     box-shadow: linear-gradient(to right, #386174, #274b9b);
   }
-.image {
-    position:absolute;
-    left: 0%;
-    right: 0;
-    margin:0 auto;
-    top:50%;
-    transform:translateY(-355%);
-    margin: auto;
-     height: 100px; 
-     width: 100px; 
-    border: 2px solid #fff;
-    border-radius: 50%;
-    box-shadow: 0 0 5px gray;
-    display: block;
 
-     background-image: url('/assets/img/pixels.jpg');
+ion-avatar{
+    position:absolute;
+    top: 3%;
+    left: 1%;
+    right: 0;
+    margin:auto;
 }
+
+
 ion-item ion-label{
     font-size: 25px;
     font-weight: bold;

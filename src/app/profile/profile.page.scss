@@ -1,12 +1,12 @@
 ion-content{
     --background:linear-gradient(to right, #f2f2f2, #889fd1);
 }
-.profile-photo{
-    border-radius:50%;
-    margin-top: 10px;
-    width: 8em !important;
-    height: 8em !important;
-    align-items: center;
+ion-avatar{
+    position:absolute;
+    top: 3%;
+    left: 1%;
+    right: 0;
+    margin:auto;
 }
 
 .profile-info{
@@ -31,5 +31,9 @@ ion-content{
 
 .more-details{
     padding-left: 15px;
+}
+.container{
+    position: relative;
+    top: 14%;
 }
 

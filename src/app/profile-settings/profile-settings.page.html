@@ -1,6 +1,6 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>Shoe app
+    <ion-title>Sneaker App
       <ion-button color="light" [routerLink]="['/uhome']">
           <ion-icon name="home-outline"></ion-icon>
       </ion-button>
@@ -11,15 +11,16 @@
 <!--       input        -->
 
 <ion-content scroll="false">
-  
+  <center>
   <ion-avatar>
     <img class="image" src="assets/profile.jpeg">
-    <div class="imageadd">
-      <ion-button color="none" lines="none" (click)="onClick()" fill="clear">
-     <!-- <ion-icon  name="add-circle-outline" color="secondary"></ion-icon>-->
-      </ion-button>
-    </div>
   </ion-avatar>
+  </center>
+    
+    <ion-button color="none" lines="none" (click)="onClick()" fill="clear">
+    <!--  <ion-icon  name="add-circle-outline" color="secondary"></ion-icon>-->
+    </ion-button>
+    
 
   <ion-item color="none" lines="none">
     <ion-label position="stacked" color="primary" stacked>Name:</ion-label>
